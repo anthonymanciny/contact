@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "flaskapp"
+version = "0.1.0"
+description = ""
+authors = ["anthonymanciny <141266961+anthonymanciny@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
